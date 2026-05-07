@@ -212,6 +212,7 @@ curl -X POST http://localhost:8000/extract \
 
 ## Future Improvements
 
+- Add a second LLM normalization layer after OCR parsing to reconcile field-name variations such as `Passenger`, `Passenger Count`, or similar labels into the fixed JSON schema.
 - Add field-level confidence scores.
 - Add image preprocessing for skewed, blurry, or low-contrast uploads.
 - Add validation for airport codes, registrations, and numeric fields.
